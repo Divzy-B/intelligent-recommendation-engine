@@ -1,0 +1,14 @@
+seed: 42
+embedding_dim: 48
+hidden_dim: 96
+max_history: 30
+batch_size: 512
+retrieval_epochs: 2
+ranking_epochs: 2
+learning_rate: 0.003
+weight_decay: 0.00001
+min_rating: 4.0
+max_train_examples: 5000
+max_baseline_events: 3000
+max_evaluation_users: 300
+candidates: 100
